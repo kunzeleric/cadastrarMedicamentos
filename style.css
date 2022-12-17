@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background: rgba(240, 196, 230, 0.26);
+}
+
+header {
+    background: #76BEBE;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    color: white;
+    height: 3em;
+    
+    display: grid;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+#sec-upper {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+
+#name h1 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+    color: #CF509C;
+}
+
+#name h3 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+}
+
+#sec-content {
+    display: grid;
+    grid-auto-flow: column;
+}
+
+form {
+    display: grid;
+    grid-auto-flow: row;
+    max-width: 500px;
+    margin-top: 4rem;
+    margin-left: 5rem;
+}
+
+label {
+    font-family: 'Alegreya Sans SC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    margin-top: 1rem;
+}
+
+input {
+    background: rgba(255, 255, 255, 0.57);
+    border-radius: 10px;
+    width: 467px;
+    height: 40px;
+    font-family: 'Alegreya Sans SC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 34px;
+}
+
+.submit-button {
+    background: #76BEBE;
+    border-radius: 10px;
+    margin: 2rem auto;
+    width: 306px;
+    height: 62px;
+
+    color: white;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 46px;
+    text-align: center;
+}
+
+#dataTable {
+    margin-top: 4rem;
+    align-items: center;
+    text-align: center;
+}
+
+th {
+    background: #3E3D3D;
+    border: 2px solid #040303;
+    color:white;
+    box-sizing: border-box;
+    padding: 7px;
+}
+
+td{
+    background: rgba(255, 255, 255, 0.57);
+    border: 1px solid #767373;
+}
+

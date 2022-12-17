@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farmácia da Gente</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anaheim" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>Cadastro de Medicamentos</li>
+                <li>Cadastro de Vacinas</li>
+                <li>Cadastro de Cosméticos</li>
+            </ul>
+        </nav>
+    </header>
+
+
+        <section id="sec-upper">
+            <div id="img">
+                <img src="logo-meds.png" alt="Logo da Farmácia">
+            </div>
+            <div id="name">
+                <h1>Cadastro de Medicamentos</h1>
+                <h3>Farmácia da Gente</h3>
+            </div>
+            <div></div>
+        </section>
+
+        <section id="sec-content">
+            <div id="form">
+                <form onsubmit="adicionarMed()">
+                    <label>Nome do Medicamento</label>
+                    <input id="fmedicamento" type="text" autocomplete="off" required placeholder="BONPRAGRIP"
+                        name="nomeMedicamento">
+
+                    <label>Quantidade do Disponível</label>
+                    <input id="fquantidade" type="text" autocomplete="off" required placeholder="100"
+                        name="qtdMedicamento">
+
+                    <label>Classe do Medicamento</label>
+                    <input id="fclasse" type="text" autocomplete="off" required placeholder="ANTIBIÓTICO"
+                        name="classeMedicamento">
+                    <button class="submit-button" type="submit">Cadastrar</button>
+                </form>
+            </div>
+
+            <div>
+                <table id="dataTable">
+                    <tbody>
+                        <tr>
+                            <th>ID</th>
+                            <th>Medicamento</th>
+                            <th>Quantidade</th>
+                            <th>Classe de Medicamento</th>
+                            <th>Remover</th>
+                        </tr>
+                        <td></td>
+                    </tbody>
+
+                </table>
+            </div>
+        </section>
+        <script src="script.js"></script>
+</body>
+</html>
